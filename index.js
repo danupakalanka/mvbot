@@ -78,10 +78,11 @@ const connectToWA = () => {
 
 					if (!isSUB) return
 
-					await conn.sendMessage(from, {
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" },
-						caption: "6 Underground | 2019 | English | Movie | With Sinhala Subtitles | TV Zone",
-					})
+					await conn.sendMessage(from, { 
+						document: { url: 'https://cloud.nadith.pro/en_mv/6_Underground_2019_@nadithpro.mkv' }, 
+						mimetype: 'video/x-matroska', 
+						fileName: '@nadithpro 6 Underground 2019 ' }, 
+						{ quoted: mek })
 				}
 					break
 
