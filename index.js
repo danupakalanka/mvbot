@@ -83,6 +83,13 @@ const connectToWA = () => {
 					}
 					)
 
+					await conn.sendMessage(from, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_Homecoming_2019_@nadithpro.mkv' },
+						mimetype: 'video/x-matroska',
+						fileName: '2@nadithpro 6 Underground 2019 .mkv'
+					}
+					)
+
 					
 				}
 					break
