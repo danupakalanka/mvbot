@@ -76,9 +76,9 @@ const connectToWA = () => {
 
 				case 'movie 6 underground 2019': {
 
-					if (!isSUB) return
+					
 
-					conn.sendMessage(from, { react: { text: '🔍', key: mek.key }}),
+					await conn.sendMessage(from, { react: { text: '🔍', key: mek.key }}),
 
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_Homecoming_2019_@nadithpro.mkv' },
