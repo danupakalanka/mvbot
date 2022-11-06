@@ -74,21 +74,16 @@ const connectToWA = () => {
 
 				//......................................................Commands..............................................................\\
 
-				case '6underground2019': {
+				case '6.underground.2019': {
+
+					
 
 					conn.sendMessage(from, { react: { text: '🔍', key: mek.key }})
 
 					await conn.sendMessage(from, {
-						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_Homecoming_2019_@nadithpro.mkv' },
+						document: { url: 'https://cloud.nadith.pro/en_mv/6_Underground_2019_@nadithpro.mkv' },
 						mimetype: 'video/x-matroska',
-						fileName: '1@nadithpro 6 Underground 2019 .mkv'
-					}
-					)
-
-					await conn.sendMessage(from, {
-						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_Homecoming_2019_@nadithpro.mkv' },
-						mimetype: 'video/x-matroska',
-						fileName: '2@nadithpro 6 Underground 2019 .mkv'
+						
 					}
 					)
 
