@@ -74,16 +74,16 @@ const connectToWA = () => {
 
 				//......................................................Commands..............................................................\\
 
-				case '6.underground.2019': {
+				case '6-underground-2019': {
 
-					
+					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: '🔍', key: mek.key }})
 
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/6_Underground_2019_@nadithpro.mkv' },
 						mimetype: 'video/x-matroska',
-						
+						fileName: config.PRONAME + command
 					}
 					)
 
