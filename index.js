@@ -12,7 +12,7 @@ const qrcode = require('qrcode-terminal')
 const util = require('util')
 const { state, saveState } = useSingleFileAuthState('./session.json')
 const config = require('./config')
-const prefix = ''
+const prefix = '.'
 const owner = ['761327688']
 const axios = require('axios')
 const connectToWA = () => {
@@ -74,7 +74,7 @@ const connectToWA = () => {
 
 				//......................................................Commands..............................................................\\
 
-				case '6underground2019': {
+				case 'movie 6 underground 2019': {
 
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_Homecoming_2019_@nadithpro.mkv' },
