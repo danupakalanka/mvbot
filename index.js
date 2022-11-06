@@ -12,7 +12,7 @@ const qrcode = require('qrcode-terminal')
 const util = require('util')
 const { state, saveState } = useSingleFileAuthState('./session.json')
 const config = require('./config')
-const prefix = ''
+const prefix = '.'
 const owner = ['761327688']
 const axios = require('axios')
 const connectToWA = () => {
@@ -74,14 +74,28 @@ const connectToWA = () => {
 
 				//......................................................Commands..............................................................\\
 
-				case '6underground2019': {
+				case 'movie 6 underground 2019': {
 
 					if (!isSUB) return
 
 					await conn.sendMessage(from, {
-						document: { url: 'https://cloud.nadith.pro/en_mv/6_Underground_2019_@nadithpro.mkv' },
+						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_Homecoming_2019_@nadithpro.mkv' },
 						mimetype: 'video/x-matroska',
-						fileName: '@nadithpro 6 Underground 2019 .mkv'
+						fileName: '1@nadithpro 6 Underground 2019 .mkv'
+					},
+					)
+
+					await conn.sendMessage(from, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_1993_@nadithpro.mkv' },
+						mimetype: 'video/x-matroska',
+						fileName: '2@nadithpro 6 Underground 2019 .mkv'
+					},
+					)
+
+					await conn.sendMessage(from, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_2001_@nadithpro.mkv' },
+						mimetype: 'video/x-matroska',
+						fileName: '3@nadithpro 6 Underground 2019 .mkv'
 					},
 					)
 				}
