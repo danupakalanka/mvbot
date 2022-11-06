@@ -83,7 +83,7 @@ const connectToWA = () => {
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/6_Underground_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: config.PRONAME + command
+						fileName: config.PRONAME + command + config.MKVFILE
 					}
 					)
 
