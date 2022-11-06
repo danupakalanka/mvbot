@@ -87,19 +87,7 @@ const connectToWA = () => {
 					},
 					)
 
-					await conn.sendMessage(from, {
-						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_1993_@nadithpro.mkv' },
-						mimetype: 'video/x-matroska',
-						fileName: '2@nadithpro 6 Underground 2019 .mkv'
-					},
-					)
-
-					await conn.sendMessage(from, {
-						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_2001_@nadithpro.mkv' },
-						mimetype: 'video/x-matroska',
-						fileName: '3@nadithpro 6 Underground 2019 .mkv'
-					}
-					)
+					
 				}
 					break
 
