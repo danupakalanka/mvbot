@@ -78,6 +78,8 @@ const connectToWA = () => {
 
 					if (!isSUB) return
 
+					conn.sendMessage(from, { react: { text: '🔍', key: mek.key }}),
+
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_Homecoming_2019_@nadithpro.mkv' },
 						mimetype: 'video/x-matroska',
@@ -96,7 +98,7 @@ const connectToWA = () => {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_2001_@nadithpro.mkv' },
 						mimetype: 'video/x-matroska',
 						fileName: '3@nadithpro 6 Underground 2019 .mkv'
-					},
+					}
 					)
 				}
 					break
