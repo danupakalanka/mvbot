@@ -74,20 +74,48 @@ const connectToWA = () => {
 
 				//......................................................Commands..............................................................\\
 
-				case '6-underground-2019': {
+				case '6-underground-2019':
+				case '6underground2019': {
 
 					if (!isSUB) return
 
-					conn.sendMessage(from, { react: { text: '🔍', key: mek.key }})
+					conn.sendMessage(from, { react: { text: '🔍', key: mek.key } })
 
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/6_Underground_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro 6 underground 2019 .mkv'
-					}
-					)
+					})
+				}
+					break
 
-					
+				case '12-strong-2018':
+				case '12strong2018': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: '🔍', key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/12_Strong_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro 12 Strong 2018 .mkv'
+					})
+				}
+					break
+
+				case 'a-wrinkle-in-time-2018':
+				case 'awrinkleintime2018': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: '🔍', key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/A_Wrinkle_In_Time_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro A Wrinkle In Time 2018 .mkv'
+					})
 				}
 					break
 
