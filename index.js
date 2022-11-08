@@ -86,6 +86,7 @@ const connectToWA = () => {
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro 6 underground 2019 .mkv'
 					})
+					conn.sendMessage(from, { react: { text: '😎', key: mek.key } })
 				}
 					break
 
@@ -101,6 +102,7 @@ const connectToWA = () => {
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro 12 Strong 2018 .mkv'
 					})
+					conn.sendMessage(from, { react: { text: '😎', key: mek.key } })
 				}
 					break
 
@@ -116,6 +118,7 @@ const connectToWA = () => {
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro A Wrinkle In Time 2018 .mkv'
 					})
+					conn.sendMessage(from, { react: { text: '😎', key: mek.key } })
 				}
 					break
 
