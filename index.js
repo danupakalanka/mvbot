@@ -122,8 +122,8 @@ const connectToWA = () => {
 				}
 					break
 
-				case '':
-				case '': {
+				case 'hi':
+				case 'hi': {
 
 					if (!isSUB) return
 
