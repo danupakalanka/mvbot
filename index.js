@@ -79,14 +79,14 @@ const connectToWA = () => {
 
 					if (!isSUB) return
 
-					conn.sendMessage(from, { react: { text: '🔍', key: mek.key } })
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/6_Underground_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro 6 underground 2019 .mkv'
 					})
-					conn.sendMessage(from, { react: { text: '😎', key: mek.key } })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
@@ -95,14 +95,14 @@ const connectToWA = () => {
 
 					if (!isSUB) return
 
-					conn.sendMessage(from, { react: { text: '🔍', key: mek.key } })
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/12_Strong_2018_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro 12 Strong 2018 .mkv'
 					})
-					conn.sendMessage(from, { react: { text: '😎', key: mek.key } })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
@@ -111,16 +111,34 @@ const connectToWA = () => {
 
 					if (!isSUB) return
 
-					conn.sendMessage(from, { react: { text: '🔍', key: mek.key } })
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
 					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/A_Wrinkle_In_Time_2018_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro A Wrinkle In Time 2018 .mkv'
 					})
-					conn.sendMessage(from, { react: { text: '😎', key: mek.key } })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+					
 
 
 				default:
