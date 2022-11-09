@@ -122,21 +122,7 @@ const connectToWA = () => {
 				}
 					break
 
-				case 'hi':
-				case 'hi': {
-
-					if (!isSUB) return
-
-					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
-
-					await conn.sendMessage(from, {
-						document: { url: '' },
-						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro .mkv'
-					})
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-				}
-					break
+				
 
 					
 
