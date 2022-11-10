@@ -253,29 +253,29 @@ const connectToWA = () => {
 					break
 
 				case 'angrybirds':
-				case 'angry-birds-movie-2016':
-				case 'angry-birds-movie-2019': {
+				case 'the-angry-birds-movie-2016':
+				case 'the-angry-birds-movie-2019': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
 					await conn.sendMessage(from, {
-						document: { url: 'https://cloud.nadith.pro/en_mv/Angry_Birds_Movie_2016_@nadithpro.mkv' },
+						document: { url: 'https://cloud.nadith.pro/en_mv/The_Angry_Birds_Movie_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Angry Birds Movie 2016 .mkv'
+						fileName: '@nadithpro The Angry Birds Movie 2016 .mkv'
 					})
 					await conn.sendMessage(from, {
-						document: { url: 'https://cloud.nadith.pro/en_mv/Angry_Birds_Movie_2019_@nadithpro.mkv' },
+						document: { url: 'https://cloud.nadith.pro/en_mv/The_Angry_Birds_Movie_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Angry Birds Movie 2019 .mkv'
+						fileName: '@nadithpro The Angry Birds Movie 2019 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
 				case 'antman':
-				case 'Ant-Man_And_The_Wasp_2018': {
+				case 'ant-man-and-the-wasp-2018': {
 
 					if (!isSUB) return
 
@@ -314,9 +314,9 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
 					await conn.sendMessage(from, {
-						document: { url: `https://cloud.nadith.pro/en_mv/Assassin's_Creed_2016_@nadithpro.mkv` },
+						document: { url: "https://cloud.nadith.pro/en_mv/Assassin's_Creed_2016_@nadithpro.mkv" },
 						mimetype: config.MKVTYPE,
-						fileName: `@nadithpro Assassin's Creed 2016 .mkv`
+						fileName: "@nadithpro Assassin's Creed 2016 .mkv"
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
@@ -372,7 +372,357 @@ const connectToWA = () => {
 				}
 					break
 
-				
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(from, {
+						document: { url: '' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
 
 
