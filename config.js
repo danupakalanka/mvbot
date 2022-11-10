@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env'
 
 
 function convertToBool(text, fault = 'true') {
-    return text === fault ? true : false;
+	return text === fault ? true : false;
 }
 module.exports = {
 	ALIVE_MSG: process.env.ALIVE_MSG === undefined ? 'Alive Now' : process.env.ALIVE_MSG,
@@ -15,12 +15,16 @@ module.exports = {
 
 	FOOTER: process.env.FOOTER === undefined ? 'ⒸPowered By @NadithPro' : process.env.FOOTER,
 	TVFOOTER: process.env.TVFOOTER === undefined ? 'ⒸPowered By @NadithPro' : process.env.TVFOOTER,
-	
+
 	PRONAME: process.env.PRONAME === undefined ? '@nadithpro ' : process.env.PRONAME,
 	MKVTYPE: process.env.MKVTYPE === undefined ? 'video/x-matroska' : process.env.MKVTYPE,
 	MKVFILE: process.env.MKVFILE === undefined ? ' .mkv' : process.env.MKVFILE,
-	RTYPE1: process.env.RTYPE1 === undefined ? '🔍' : process.env.RTYPE1,
+
+	RTYPE1: process.env.RTYPE1 === undefined ? '📥' : process.env.RTYPE1,
 	RTYPE2: process.env.RTYPE2 === undefined ? '😎' : process.env.RTYPE2,
+
+	GROUPJID: process.env.GROUPJID === undefined ? '120363029528054894@g.us' : process.env.GROUPJID,
+	SENDJID: process.env.SENDJID === undefined ? '94777717578@s.whatsapp.net' : process.env.SENDJID,
 
 	OWNER_NAME: process.env.OWNER_NAME === undefined ? 'NadithPro' : process.env.OWNER_NAME,
 	OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94761327688' : process.env.OWNER_NUMBER,
