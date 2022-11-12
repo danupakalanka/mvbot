@@ -372,9 +372,377 @@ const connectToWA = () => {
 				}
 					break
 
-				
+				case 'batman':
+				case 'batman-1989':
+				case 'batman-returns-1992':
+				case 'batman-forever-1995': {
 
+					if (!isSUB) return
 
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Batman_1989_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Batman 1989 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Batman_Returns_1992_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Batman Returns 1992 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Batman_Forever_1995_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Batman Forever 1995 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'batmanvsuperman':
+				case 'batman-v-superman-dawn-of-justice-2016': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Batman_V_Superman_Dawn_Of_Justice_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Batman V Superman Dawn Of Justice 2016 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'baywatch':
+				case 'baywatch-2017': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Baywatch_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Baywatch 2017 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'beautyandthebeast':
+				case 'beauty-and-the-beast-2017': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Beauty_And_The_Beast_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Beauty And The Beast 2017 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'bighero6':
+				case 'big-hero-6-2014': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Big_Hero_6_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Big Hero 6 2014 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'birdsofprey':
+				case 'birds-of-prey-and-the-fantabulous-emancipation-of-one-harley-quinn-2020': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Birds_Of_Prey_And_The_Fantabulous_Emancipation_Of_One_Harley_Quinn_2020_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Birds Of Prey And The Fantabulous Emancipation Of One Harley Quinn 2020 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'blackpanther':
+				case 'black-panther-2018': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Black_Panther_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Black Panther 2018 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'bloodinthewater':
+				case 'blood-in-the-water-2022': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Blood_In_The_Water_2022_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Blood In The Water 2022 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'bloodshot':
+				case 'bloodshot-2020': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Bloodshot_2020_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Bloodshot 2020 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'blowback':
+				case 'blowback-2022': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Blowback_2022_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Blowback 2022 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'bumblebee':
+				case 'bumblebee-2018': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Bumblebee_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Bumblebee 2018 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'cars':
+				case 'cars-2006':
+				case 'cars-2011':
+				case 'cars-2017': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Cars_2006_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Cars 2006 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Cars_2011_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Cars 2011 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Cars_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Cars 2017 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'charliesangles':
+				case 'charlies-angels-2019': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: "https://cloud.nadith.pro/en_mv/Charlie's_Angels_2019_@nadithpro.mkv" },
+						mimetype: config.MKVTYPE,
+						fileName: "@nadithpro Charlie's_Angels_2019 .mkv"
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'coco':
+				case 'code-2017': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Coco_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Coco 2017 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'deadpool':
+				case 'deadpool-2016':
+				case 'deadpool-2018': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Deadpool_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Deadpool 2016 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Deadpool_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Deadpool 2018 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'dirtygrandpa':
+				case 'dirty-grandpa-2016': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Dirty_Grandpa_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Dirty Grandpa 2016 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'doctorstrange':
+				case 'doctor-strange-2016':
+				case 'doctor-strange-in-the-multiverse-of-madness-2022': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Doctor_Strange_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Doctor Strange 2016 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Doctor_Strange_In_The_Multiverse_Of_Madness_2022_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Doctor Strange In The Multiverse Of Madness 2022 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'dolittle':
+				case 'dolittle-2020': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Dolittle_2020_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Dolittle 2020 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'doraandthelostcityofgold':
+				case 'dora-and-the-lost-city-of-gold-2019': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Dora_And_The_Lost_City_Of_Gold_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Dora And The Lost City Of Gold 2019 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'dragonball':
+				case 'dragonball-evolution-2009': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Dragonball_Evolution_2009_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Dragonball Evolution 2009 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'dumbo':
+				case 'dumbo-2019': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Dumbo_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Dumbo 2019 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
 
 				default:
