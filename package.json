@@ -1,7 +1,7 @@
 {
- "name": "edmbase",
- "description": "Multi Device Whatsapp Base By EDM",
- "version": "1.0.0",
+ "name": "tvzonebot",
+ "description": "Multi Device Whatsapp Bot By NadithPro",
+ "version": "1.1.2",
  "main": "index.js",
  "scripts": {
   "start": "node index.js"
@@ -16,7 +16,7 @@
   "bot-md",
   "multi-device"
  ],
- "author": "edm-official",
+ "author": "NadithPro",
  "license": "MIT",
  "dependencies": {
   "@adiwajshing/baileys": "git+https://github.com/sanuwaofficial/Baileys.git",
@@ -58,10 +58,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/nadith-git/combot"
+  "url": "git+https://github.com/nadith-git/mvbot"
  },
  "bugs": {
-  "url": "https://github.com/nadith-git/combot"
+  "url": "https://github.com/nadith-git/mvbot"
  },
- "homepage": "https://github.com/nadith-git/combot"
+ "homepage": "https://github.com/nadith-git/mvbot"
 }
