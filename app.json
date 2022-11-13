@@ -1,7 +1,7 @@
 {
-  "name": "edm bot base",
+  "name": "TV Zone Bot",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/edm-official/whatsapp-base",
+  "repository": "https://github.com/nadith-git/mvbot",
   "logo": "",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": {
